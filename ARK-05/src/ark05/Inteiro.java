@@ -15,5 +15,4 @@ public class Inteiro {
     public void setValor(int valor) {
         this.valor = valor;
     }
-    
 }

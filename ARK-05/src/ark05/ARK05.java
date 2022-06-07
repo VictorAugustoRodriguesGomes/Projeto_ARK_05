@@ -1,4 +1,3 @@
-
 package ark05;
 
 import com.sun.scenario.effect.impl.prism.PrImage;

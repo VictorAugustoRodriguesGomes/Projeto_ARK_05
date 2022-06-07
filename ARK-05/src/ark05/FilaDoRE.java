@@ -6,40 +6,40 @@ import javax.swing.JOptionPane;
 
 public class FilaDoRE implements Fila {
 
-    private ArrayList<String> alunos;
+    private ArrayList<String> pessoas;
 
     public FilaDoRE() {
-        alunos = new ArrayList<>();
+        pessoas = new ArrayList<>();
     }
 
     @Override
     public void cadastrar(String nome) {
-        alunos.add(nome);
+        pessoas.add(nome);
     }
 
     @Override
     public void trocarLugar(int pos1, int pos2) {
-        String aluno = alunos.get(pos1);
-        alunos.set(pos1, alunos.get(pos2));
-        alunos.set(pos2, aluno);
+        String aluno = pessoas.get(pos1);
+        pessoas.set(pos1, pessoas.get(pos2));
+        pessoas.set(pos2, aluno);
     }
 
     @Override
     public String chamarPrimeiro() {
-        return alunos.get(0);
+        return pessoas.get(0);
     }
 
     @Override
     public void desistir(int pos) {
-        alunos.remove(pos);
+        pessoas.remove(pos);
     }
 
     @Override
     public ArrayList<String> listarFila() {
-        return alunos;
+        return pessoas;
     }
 
     public int tamanha() {
-        return alunos.size();
+        return pessoas.size();
     }
 }
