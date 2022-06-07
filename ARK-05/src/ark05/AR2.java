@@ -10,7 +10,7 @@ public class AR2 extends javax.swing.JFrame {
     public AR2(FilaDoRE f) {
         this.f = f;
         initComponents();
-        String[] listaData = new String[f.tamanha()];
+        String[] listaData = new String[f.tamanho()];
         f.listarFila().toArray(listaData);
         listaDaTela.setListData(listaData);
     }

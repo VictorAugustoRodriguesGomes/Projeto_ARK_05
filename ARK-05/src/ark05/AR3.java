@@ -12,7 +12,7 @@ public class AR3 extends javax.swing.JFrame {
     public AR3(FilaDoRE f) {
         initComponents();
         this.f = f;
-        String[] listaData1 = new String[f.tamanha()];
+        String[] listaData1 = new String[f.tamanho()];
         f.listarFila().toArray(listaData1);
         ComboBoxModel<String> model1 = new DefaultComboBoxModel<>(listaData1);
         f.listarFila().toArray(listaData1);

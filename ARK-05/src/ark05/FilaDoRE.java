@@ -26,7 +26,9 @@ public class FilaDoRE implements Fila {
 
     @Override
     public String chamarPrimeiro() {
-        return pessoas.get(0);
+        String nome = pessoas.get(0);  
+        this.desistir(0);
+        return nome;    
     }
 
     @Override
@@ -39,7 +41,7 @@ public class FilaDoRE implements Fila {
         return pessoas;
     }
 
-    public int tamanha() {
+    public int tamanho() {
         return pessoas.size();
     }
 }

@@ -108,13 +108,12 @@ public class AR5 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        if (f.tamanha() > 0) {
+        if (f.tamanho() > 0) {
             JOptionPane.showMessageDialog(this,
-                    "O integrante vai ser chamdo",
+                    "O integrante vai ser chamado",
                     "Aviso",
                     JOptionPane.WARNING_MESSAGE
             );
-            f.chamarPrimeiro();
         }
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed

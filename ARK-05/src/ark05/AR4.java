@@ -12,7 +12,7 @@ public class AR4 extends javax.swing.JFrame {
     public AR4(FilaDoRE f) {
         initComponents();
         this.f = f;
-        String[] listaData = new String[f.tamanha()];
+        String[] listaData = new String[f.tamanho()];
         f.listarFila().toArray(listaData);
         ComboBoxModel<String> model = new DefaultComboBoxModel<>(listaData);
         seta.setModel(model);
@@ -119,7 +119,7 @@ public class AR4 extends javax.swing.JFrame {
     }//GEN-LAST:event_cancelarActionPerformed
 
     private void comfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comfirmarActionPerformed
-        if (f.tamanha() > 0) {
+        if (f.tamanho() > 0) {
             int posicao = seta.getSelectedIndex();
             f.desistir(posicao);
             this.dispose();
