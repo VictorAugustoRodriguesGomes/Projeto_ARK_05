@@ -2,7 +2,7 @@
 
 # Projeto ARK 05
 
-Os Projetos nomeado ARK são uma aplicação desenvolvidos em java na IDE NetBens. O objetivo é desenvolver um projeto partindo de listas de exercícios encontrados na Internet, seriam projetos mais simples.
+Os projetos nomeados ARK são uma aplicação desenvolvida em Java na IDE NetBeans. O objetivo é desenvolver um projeto partindo de listas de exercícios encontrados na Internet, seriam projetos mais simples.
 
 Ark 5 é um projeto de gerenciamento responsável por gerenciar a fila de um restaurante, através do projeto o usuário poderá adicionar pessoas a fila, visualizar as pessoas presentes a fila, trocar a ordem das pessoas presentes na fila, retirar as pessoas que estão na fila e também estar chamando a próxima pessoa presente na fila do restaurante.
 
